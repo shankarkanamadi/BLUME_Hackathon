@@ -13,6 +13,10 @@ After installing dependencies, execute
 
 ## Results
 
+UI showing background removal and super-imposition on background canvas for the edutech company.
+
+The FPS as observed on the video stream was equal to the original live video. To achieve this we avoided DNN to ensure a light weight video processing engine. Simple opencv libraries was the goto option in this regard.
+
 ![image1](https://github.com/shankarkanamadi/BLUME_Hackathon/blob/master/results/Screenshot%20(5).png)
 
 
