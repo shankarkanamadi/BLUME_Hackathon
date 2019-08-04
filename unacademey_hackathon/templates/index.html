@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="container col-sm-8">
+            <center><h2>Video Streaming</h2></center>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <img  class="img-thumbnail col-sm-10" src="{{url_for('video_viewer')}}">
+                <div class="col-sm-1"></div>
+            </div>
+
+        </div>
+        <div class="container col-sm-4">
+            <div class="container col-sm-12" style="border-style: groove; border-color: #ddd; margin: 5px;">
+                <div>
+                    <center><h2>Comments</h2></center>
+                <div class="panel panel-success">
+                    <div class="panel-heading">Shankar</div>
+                    <div class="panel-body">In computer science, a stack is an abstract data type that serves as a collection of elements, with two principal operations: push, which adds an element to the collection, and pop, which removes the most recently added element that was not yet removed</div>
+                    <div class="panel-footer">
+                        <a href="">Like</a>|<a href="">Comment</a>|<a href="">Share</a>
+                    </div>
+                </div>
+                <div class="panel panel-success">
+                    <div class="panel-heading">Shankar</div>
+                    <div class="panel-body">In computer science, a stack is an abstract data type that serves as a collection of elements, with two principal operations.</div>
+                    <div class="panel-footer">
+                        <a href="">Like</a>|<a href="">Comment</a>|<a href="">Share</a>
+                    </div>
+                </div>
+                <div class="panel panel-success">
+                    <div class="panel-heading">Shankar</div>
+                    <div class="panel-body">In computer science, a stack is an abstract data type that serves as a collection of elements, with two principal operations.</div>
+                    <div class="panel-footer">
+                        <a href="">Like</a>|<a href="">Comment</a>|<a href="">Share</a>
+                    </div>
+                </div>
+                <div class="panel panel-success">
+                    <div class="panel-body"><h6>Add Comment</h6><textarea class="form-control"></textarea></div>
+                    <div class="panel-footer">
+                        <button>Submit</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
