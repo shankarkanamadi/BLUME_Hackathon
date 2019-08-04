@@ -11,3 +11,17 @@ Please refer requirements.txt file
 After installing dependencies, execute
 > python main.py
 
+## Results
+
+![image1](https://github.com/shankarkanamadi/BLUME_Hackathon/blob/master/results/Screenshot%20(5).png)
+
+
+![image2](https://github.com/shankarkanamadi/BLUME_Hackathon/blob/master/results/Screenshot%20(6).png)
+
+
+![image3](https://github.com/shankarkanamadi/BLUME_Hackathon/blob/master/results/Screenshot%20(7).png)
+
+
+
+
+
